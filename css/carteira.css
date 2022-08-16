@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+}
+
+.house img{
+    position: relative;
+    max-width: 700px;
+    max-height: 6500px;
+    width: auto;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 30px;
+    border: 7px solid #D3D3D3;
+    border-radius: 5%;
+}
+
+.bordao h1{
+    border-bottom: 4px solid #D3D3D3;
+    font-size: 40px;
+}
+
+.caracteristicas{
+    position: absolute;
+    bottom: 40px;
+    left: 800px;
+    list-style: none;
+}
+
+.caracteristicas li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.descricao h4{
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    margin-bottom: 20px;
+    text-align: right;
+    transform: translateX(-20px);
+}
+
+.descricao p{
+    max-width: 330px;
+    text-align: left;
+    transform: translateX(-2px);
+    position: absolute;
+    right: 115px; 
+    top: 470px;
+}
+
+.reservar{
+    position: absolute;
+    background: #363636;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px #777;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    right: 450px;
+    border-radius: 3%;
+}
+
+.botaofav{
+    background: #363636;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px #777;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    position: absolute;
+    top: 830px;
+    left: 30px;
+    text-decoration: none;
+}
+
+.nomecasa{
+    position: absolute;
+    top: 305px;
+    left: 240px;
+}

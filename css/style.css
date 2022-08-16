@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+}
+
+#menu-opcoes ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    left: 400px;
+}
+
+.container a img {
+    position: absolute;
+    top: 0;
+    left: 180px;
+}
+
+#menu-opcoes ul li{
+    display: inline;
+}
+
+#menu-opcoes ul li a{
+    color: #A9A9A9;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-opcoes ul li a:hover{
+    color: #363636;
+}
+
+#imagem1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #A9A9A9;
+    position: absolute;
+    right: 0;
+    top: 600px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#imagem2{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #A9A9A9;
+    position: absolute;
+    right: 0;
+    top: 300px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#imagem3{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #A9A9A9;
+    position: absolute;
+    left: 0;
+    top: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#imagem4{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #A9A9A9;
+    position: absolute;
+    left: 0;
+    top: 600px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.bordao{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+.bordao h1{
+    border-top: 4px solid #D3D3D3;
+    font-size: 40px;
+}
+
+.bordao h2{
+    border-bottom: 4px solid #D3D3D3;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cidade{
+    margin-top: 40px;
+}
+
+#botaoindex{
+    position: absolute;
+    left: 360px;
+}
+
+#quarto{
+    margin-bottom: 40px;
+}
+
+#rodape{
+    color: #A9A9A9;
+    margin: 30px 0;
+    margin-top: 60px;
+    padding: 30px 0;
+}
+
+ 

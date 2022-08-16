@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans+Condensed:wght@300&display=swap');
+
+.box{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    color: white;
+}
+
+.house img{
+    position: relative;
+    max-width: 700px;
+    max-height: 6500px;
+    width: auto;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 30px;
+    border: 7px solid #D3D3D3;
+    border-radius: 5%;
+}
+
+.nomecasa{
+    position: absolute;
+    top: 0px;
+    left: 240px;
+}
+
+.bordao{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+.bordao h1{
+    border-top: 4px solid #D3D3D3;
+    font-size: 40px;
+}
+
+.nomecasa{
+    position: absolute;
+    top: 305px;
+    left: 240px;
+}
+
+.calendario{
+    position: absolute;
+    right: 450px;
+    top: 570px;
+}
+
+#submit1{
+    background: #363636;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px #777;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    position: absolute;
+    right: 532px;
+    top: 650px;
+    border-radius: 7px;
+    border-style: none;
+}
+
+#submit2{
+    background: #363636;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px #777;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    position: absolute;
+    right: 250px;
+    top: 650px;
+    border-radius: 7px;
+    border-style: none;
+}

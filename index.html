@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - ADIMO Imobiliária</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+</head>
+<body>
+    <header class="container"> 
+        <a class="logo" href="index.html"><img src="img/logo.png" alt="Logo da ADIMO Imobiliária"></a>
+        <nav id="menu-opcoes">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="carteira.html">Carteira de Imóveis</a></li>
+                <li><a href="lista-desejos.html">Lista de Desejos</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bordao">
+        <h1 class="titulo">O melhor lugar para adquirir ou alugar imóveis!</h1>
+        <h2 class="subtitulo">Comece agora mesmo!</h2>
+    </div>
+    <form class="col-md-6 col-xl-7">
+        <fieldset class="col-lg-10" id="cidade">
+            <div class="form-group">
+                <label class="cidade">Cidade</label>
+                <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Busque por cidade">
+            </div>
+            <br> 
+            <div class="form-group"></div>
+                <label>Bairro</label>
+                <input type="text" class="form-control" id="bairro" name="bairro" placeholder="Busque por bairro">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="col-lg-4">
+            <div class="form-group"></div>
+                <label>Valor:</label>
+                <select class="custom-select" name="valor" id="valor">
+                    <option value="1000">R$ 1.000,00</option>
+                    <option value="2000">R$ 2.000,00</option>
+                    <option value="3000">R$ 3.000,00</option>
+                    <option value="4000">R$ 4.000,00</option>
+                    <option value="5000">R$ 5.000,00</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div class="form-group"></div>
+                <label>Qtd de Quartos:</label>
+                <select class="custom-select" name="quarto" id="quarto">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <a href="carteira.html"><button type="submit" class="btn btn-primary" id="botaoindex">Encontrar imóveis</button></a>
+    <img id="imagem1" src="img/foto-casas.jpg" alt="Casas" class="imagem-casas">
+    <img id="imagem2" src="img/foto-casas2.jpg" alt="Casas" class="imagem-casas">
+    <img id="imagem3" src="img/foto-casas3.jpg" alt="Casas" class="imagem-casas">
+    <img id="imagem4" src="img/foto-casas4.jpg" alt="Casas" class="imagem-casas">
+    <footer class="rodape">
+        <div id="rodape">
+            <img src="img/logo.png" alt="Logo da ADIMO Imobiliária">
+            Copyright ADIMO Imobiliária
+        </div>
+    </footer>
+</body>
+</html>
